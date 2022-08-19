@@ -1,0 +1,8 @@
+-qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "" -%l "pt_BR, en, *" https://www.revendamaisverde.com.br/ -O1 "C:\Users\Roberto Andrade\OneDrive - MS365\Área de Trabalho\widecloud\copia intelbras\copia intel" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +https://www.revendamaisverde.com.br/
+File generated automatically on Fri, 19 Aug 2022 14:20:59, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+
