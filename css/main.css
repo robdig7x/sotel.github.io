@@ -895,15 +895,11 @@ footer {
 }
 .slideGallery .itemGallery {
   width: 100%;
-  max-width: 370px;
-  height: 180px;
-
+  max-width: 640px;
+  height: 400px;
   padding: 2%;
-
   object-fit: cover;
-
   overflow: hidden;
-
   box-sizing: border-box;
 }
 
