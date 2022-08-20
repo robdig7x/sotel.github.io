@@ -367,7 +367,7 @@ main {
 #formulario {
   width: 100%;
   max-width: 350px;
-  background: rgba(24, 178, 109, 0.74);
+  background: rgba(153, 153, 153);
   padding: 20px;
   text-align: center;
   /* position: absolute;
@@ -827,7 +827,7 @@ footer {
   #formulario {
     width: 100%;
     max-width: 100%;
-    background: rgba(24, 178, 109, 0.74);
+    background: rgba(153, 153, 153);
     padding: 20px;
     text-align: center;
   }
