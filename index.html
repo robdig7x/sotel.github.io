@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="favicon.ico" sizes="32x32" />
 
-    <title>Home - Revenda Sotel</title>
+    <title>Home - Sotel Soluções Integradas</title>
     <base >
 
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.css">
@@ -56,6 +56,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li class="nav-item"><a class="nav-link" href="#solucoes">Soluções</a></li>
                             <li class="nav-item"><a class="nav-link" href="#novidades">Novidades</a></li>
                             <!-- <li class="nav-item"><a class="nav-link" href="widecloud/index.html">Wide Cloud</a></li>                             -->
+                            <li class="nav-item blscreen"><a class="nav-link" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">Orçamento</a></li>
                         </ul>
                         <ul class="listTOP">
                             <li>
@@ -77,6 +78,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a href="https://wa.me/5511910008056" class="whatsapp" target="_blank"><img src="img/whatsapp.png" alt=""></a>
 
 <main>
+    
+<!-- Modal Orçamentos -->
+<div id="boxes" class="blscreen">    
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div id="dialog2" class="window">                   
+                    <iframe name="dummyframe" id="dummyframe" >teste</iframe>
+                    <div id="formulario">
+                        <h3>Solicite seu Orçamento</h3>
+                        <form target="dummyframe" action="https://usebasin.com/f/9acce5ff0b70"
+                            method="POST"
+                            enctype="multipart/form-data"
+                            id="form">
+                            <input name="name" type="text" class="iptForm" placeholder="Nome" required="required">
+                            <input name="email" type="email" class="iptForm" placeholder="E-mail" required="required">                              
+                            <input name="telefone" type="text" class="iptForm" placeholder="Telefone" required="required">
+                            <input name="emp" type="text" class="iptForm" placeholder=" Nome da Empresa / Condominio" required="required">
+                            <textarea name="message" class="iptForm"cols="30" rows="10" placeholder="Mensagem" required="required"></textarea>
+                            <button>Enviar</button>
+                            <button data-dismiss="modal">Fechar</button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>   
+
+
 <div id="banner">
     <div class="item banner3">
         <!-- <a href="energia-solar/index.html"> -->
